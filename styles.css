@@ -1,0 +1,11 @@
+/* CSS Reset - all the elements will be having a default styling given by the browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.app {
+    width:100 vw;
+    height : 100 vh
+}
