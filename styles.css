@@ -1,16 +1,16 @@
 /* CSS Reset - all the elements will be having a default styling given by the browser */
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 .app {
-    width:100 vw;
-    height : 100 vh
+    width: 100 vw;
+    height: 100 vh
 }
 
-.nav-link-text{
+.nav-link-text {
     font-family: inter, sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -18,12 +18,40 @@
     color: #18191F;
     text-decoration: none;
 }
-.nav-bar{
+
+.nav-bar {
+    /* max-width more than 1440 px gives free space in left and right side  */
     max-width: 1440px;
-    height:72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
 }
-.nav-bar-list{
-    display:flex; 
-    gap:32px; 
+
+.nav-bar-list {
+    display: flex;
+    gap: 32px;
     list-style: none;
+}
+
+.content {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    width: 730px;
+    height: 196px;
+}
+
+.start-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    width: 154px;
+    height: 48px;
+    background: #8C30F5;
+    border-radius: 6px;
 }
