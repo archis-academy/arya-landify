@@ -9,3 +9,21 @@
     width:100 vw;
     height : 100 vh
 }
+
+.nav-link-text{
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18191F;
+    text-decoration: none;
+}
+.nav-bar{
+    max-width: 1440px;
+    height:72px;
+}
+.nav-bar-list{
+    display:flex; 
+    gap:32px; 
+    list-style: none;
+}
