@@ -35,6 +35,7 @@
 }
 
 .content {
+
     font-family: 'Inter';
     font-weight: 800;
     font-size: 72px;
@@ -42,6 +43,7 @@
     color: #18191F;
     width: 730px;
     height: 196px;
+
 }
 
 .start-button {
@@ -68,4 +70,23 @@
     left: 925px;
     top: 168px;
 
+}
+
+.right-nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    gap: 12px;
+    width: 282px;
+    height: 40px;
+    right: 165px;
+    top:0
+}
+
+.nav-image-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
